@@ -1,0 +1,7 @@
+$url = URL . '/?q=barcode:' . $barcode . '&inst=' . $inst_id . '&principalID=' . PRINCIPALID . '&principalIDNS=' . PRINCIPALIDNS;
+
+$auth = wskey_v2_request_header_value($url, METHOD, '', WSKEY, SECRET);
+
+
+
+url:https://circ.sd00.worldcat.org/LHR/?q=barcode:38030100987679&inst=60297&principalID=f368a55e-56dd-406c-bae4-b537fc91d9bf&principalIDNS=urn:oclc:wms:da---- auth:http://www.worldcat.org/wskey/v2/hmac/v1 clientId="0qE1lVwma9kzdQTkn6OWhqP1owKo4Jw66zrmfneOc8695apopPs9pSHBxyyW2JIVMb5bi3n8V4yVjrJV", timestamp="1484759354", nonce="5b34aa98", signature="t2PIjBmK5m4YAGUDvxWdrkpyBBa6DD+3Hn1quzPFXnE="500The Server Failed to Respond CorrectlyNo SecurityContext present. Is the Wskey correct?
